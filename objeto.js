@@ -5,7 +5,7 @@ const aluno = {
     nome: "Isa",
     idade: 23,
 // metodo
-    estudar:()=> concole.log 
+    estudar:()=> console.log 
     (`${aluno.nome} está estudando.`),
 };
 
