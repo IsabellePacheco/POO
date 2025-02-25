@@ -9,9 +9,9 @@ class Aluno {
     }
         estudar = () => console.log (`${this.nome} esta estudando.`);
         verNota = () => this.#nota
+        acao = () => (`${this.nome} tem ${this.idade} anos e tirou ${this.#nota} pontos na avaliação `);
 }
 
 const Isa = new Aluno ("Isa", 17, 100)
 
-console.log(Isa.nome)
-console.log(Isa.verNota())
+console.log(Isa.acao())
