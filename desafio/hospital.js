@@ -63,3 +63,25 @@ console.log(Roberta.acao())
 
 console.log(Sonia.apresentar())
 console.log(Sonia.acao())
+
+
+const resultados = document.getElementById('resultados');
+        
+        const funcionarios = [Isa, Eduardo, Gael, Julia, Carlos, Roberta, Sonia];
+        
+        funcionarios.forEach(funcionario => {
+            const row = document.createElement('tr');
+            
+            // Adiciona as colunas para o , ação e CPF
+            
+            const acaoCell = document.createElement('td');
+            acaoCell.textContent = funcionario.apresentar();
+            row.appendChild(acaoCell);
+            
+            const cpfCell = document.createElement('td');
+            cpfCell.textContent = funcionario.acao();
+            row.appendChild(cpfCell);
+
+            // Adiciona a linha à tabela
+            resultados.appendChild(row);
+        });
