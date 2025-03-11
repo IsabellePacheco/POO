@@ -15,6 +15,8 @@ class Professor extends Pessoa{
     
 } 
 
+
+
 const Fany = new Pessoa("Fany")
 const Isa = new Aluno ("Isa" )
 const Raul = new Professor ("Raul" )
