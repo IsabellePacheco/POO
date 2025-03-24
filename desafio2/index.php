@@ -113,10 +113,7 @@ $camila = new Diretora1 ("Camila", 55, 0);
              <li><?php $erivan->falar(); ?></li>
              <li><?php $antonia->falar(); ?></li>
              <li><?php $camila->falar(); ?></li>
-         </ul>
-
-
-
+    </ul>
 
 </body>
 </html>
